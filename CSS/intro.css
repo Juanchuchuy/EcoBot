@@ -35,7 +35,7 @@ body{
 }
 header{
 
-    background-color: var(--green-mid);
+    background: linear-gradient(90deg, var(--green-deep), var(--green-mid));
     color: var(--color-1);
     display: flex;
     flex-direction: row;
@@ -139,7 +139,7 @@ main{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    min-height: 100vh;
+    min-height: 90vh;
     background-color: var(--green-light);
     gap: 4em;
  
@@ -593,96 +593,6 @@ main aside:hover .online-text{
 }
 
 
-.intro-p{
-    
-    margin-top: 0.5em;
-    display: flex;
-    gap: 20px;
-    font-size: 4em;
-    color:#2e7d3296;
-    
 
 
-}
 
-.intro-arrow{
-
-    margin-top: 0.7em;
-
-}
-
-
-.more-box{
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center ;
-    gap: 5em;
-   
-
-
-}
-
-.more-title{
-
-    display: flex;
-    justify-content: center;
-    
-
-}
-.more-title h2{
-
-    width: 100%;
-
-}
-.more-cards{
-
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color:var(--green-mid);
-    width: 100%;
-
-}
-
-.more-card{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    border-radius: 5px;
-    color: var(--color-2) ;
-    padding: 10px;
-    background: #202C33 ;
-    width: 25%;
-    gap: 15px;
-
-}
-.more-card figure{
-
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-
-.more-card-img{
-   
-    width:  100%;
-    height: 100%;
-    border-radius: 3px;
-    object-fit: cover;
-}
-
-.more-card figure::before{
-
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.297);  
-    pointer-events: none;  
-
-}

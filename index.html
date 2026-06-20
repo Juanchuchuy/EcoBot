@@ -1,195 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <script src="JS/script.js" defer></script>
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="CSS/index.css">
+    <script src="JS/CardLogin.js" defer></script>
+    <title>EcoTuc - Inicio</title>
 </head>
 <body>
-    <header>
-        <section class="logo">
-            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-leaf-fill" viewBox="0 0 16 16">
-  <path d="M1.4 1.7c.217.289.65.84 1.725 1.274 1.093.44 2.885.774 5.834.528 2.02-.168 3.431.51 4.326 1.556C14.161 6.082 14.5 7.41 14.5 8.5q0 .344-.027.734C13.387 8.252 11.877 7.76 10.39 7.5c-2.016-.288-4.188-.445-5.59-2.045-.142-.162-.402-.102-.379.112.108.985 1.104 1.82 1.844 2.308 2.37 1.566 5.772-.118 7.6 3.071.505.8 1.374 2.7 1.75 4.292.07.298-.066.611-.354.715a.7.7 0 0 1-.161.042 1 1 0 0 1-1.08-.794c-.13-.97-.396-1.913-.868-2.77C12.173 13.386 10.565 14 8 14c-1.854 0-3.32-.544-4.45-1.435-1.124-.887-1.889-2.095-2.39-3.383-1-2.562-1-5.536-.65-7.28L.73.806z"/>
-</svg>
-            <h1>EcoTuc</h1> 
-        </section>
-        <nav>
-            <ul>
-                <li><a href="" class="active"><strong>Inicio</strong></a></li>
-                <li><a href=""><strong>Chatbot</strong></a></li>
-                <li><a href=""><strong>Mapa</strong></a></li>
-                <li><a href=""><strong>Como Reciclar</strong></a></li>
-                <li><a href=""><strong>Quienes somos</strong></a></li>
-            </ul>
-        </nav> 
-    </header>
-    <main>
-        <section class="main-intro" id="Inicio">
-            <section class="intro">
-                <div class="intro-legend">
-                    <div class="hero-ia">
-                        <div>
-                            <i class="fa-solid fa-robot"></i>
-            
-                            <strong>IA + Medio ambiente</strong>
 
-                        </div>
+<section class="inicio">
+    <section class="inicio-container">
+
+        <div class="container-login" id="container-login">
+            <div class="form-container sign-up">
+                <form>
+                    <h1>Registrarse</h1>
+                    <div class="social-icons">
+                        <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                        <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                        <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
                     </div>
-                        <br>
-                        <h1 class="pointer">
-                            Tecnología para un Tucumán<br> mas seguro
-                        </h1>
-                        <br>
-                        <h3 class="pointer">Reportá basura en tu barrio, aprendé a reciclar y consultá a<br> nuestro asistente inteligente. Todo en un solo lugar.</h3>
-                        <br>
-                        <section class="intro-ref">
-                            <div><strong><a href="#">Chatea con EcoBot</a></strong></div>
-                            <div><strong><a href="#">Ver mapa de reportes</a></strong></div>
-                        </section>
-                        <section class="intro-boxes">
-                            <div class="intro-box-estatics estatics-1">
-                                <h2><strong>1.250</strong></h2>
-                                <h3><strong>Reportes enviados</strong></h3>
-                            </div>
-                            <div class="intro-box-estatics estatics-2">
-                            <h2><strong>86%</strong></h2> 
-                                <h3><strong>Satisfaccion del Chatbot</strong></h3>
-                            </div>
-                            <div class="intro-box-estatics estatics-3">
-                                <h2><strong>12</strong></h2>
-                                <h3><strong >Barrios alcanzados</strong></h3>
-                            </div>
-                        </section>
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                    <input type="password" placeholder="Password">
+                    <button>Registrarse</button>
+                </form>
+            </div>
+            <div class="form-container sign-in">
+                <form>
+                    <h1>Iniciar Sesion</h1>
+                    <div class="social-icons">
+                        <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                        <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                        <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
                     </div>
-                     <section class="testimonial">
-                        <div>
-                            <h1><i class="fa-regular fa-user testimonial-user"></i></h1>
-                            <span class="testimonial-text"><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam impedit ullam sequi voluptate mollitia aspernatur, est voluptates commodi cum, obcaecati veritatis omnis at assumenda sapiente.</strong></span>
-                        </div>
-                        <span style="border: 1px solid var(--green-mid); width: 90%; margin: 0 auto;" ></span>
-                        <div>
-                            <h1><i class="fa-regular fa-user testimonial-user"></i></h1>
-                            <span class="testimonial-text"><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam impedit ullam sequi voluptate mollitia aspernatur, est voluptates commodi cum, obcaecati veritatis omnis at assumenda sapiente.</strong></span>
-                        </div>
-                    </section>
-            </section>
-            <aside>
-                <section class="chatbot-box">
-                    <div class="chat-sidebar">
-        
-                        <div class="pointer">
-        
-                            <h3 style="border-bottom:2px solid var(--color-3);">EcoBot</h3>
-                            <br>
-                            <h4 style="color: var(--color-2);">Preguntame sobre reciclaje y residuos. Para horarios del camión, usá el bot de WhatsApp.</h4>
-        
-                        </div>
-        
-                            <div class="quick-title pointer">
-        
-                               <h3>Preguntas rápidas</h3> 
-                                
-                            </div>
-                        <div class="quick-btns">
-                            <button class="qbtn" onclick="enviarRapido('¿Dónde tiro las pilas usadas?')">¿Dónde tiro las pilas?</button>
-                            <button class="qbtn" onclick="enviarRapido('¿Cómo reciclo el plástico?')">¿Cómo reciclo el plástico?</button>
-                            <button class="qbtn" onclick="enviarRapido('¿Qué hago con los medicamentos vencidos?')">Medicamentos vencidos</button>
-                            <button class="qbtn" onclick="enviarRapido('¿Cómo hago compost en casa?')">Compost en casa</button>
-                            <button class="qbtn" onclick="enviarRapido('¿A qué hora pasa el camión de basura?')">¿A qué hora pasa el camión?</button>
-                            <button class="qbtn" onclick="enviarRapido('¿A qué hora pasa el camión de basura?')">Lorem ipsum dolor sit amet consectetur adipisicing elit?. </button>
-                            <button class="qbtn" onclick="enviarRapido('¿A qué hora pasa el camión de basura?')">Lorem ipsum dolor sit amet consectetur adipisicing elit?. </button>
-                            <button class="qbtn" onclick="enviarRapido('¿A qué hora pasa el camión de basura?')">Lorem ipsum dolor sit amet consectetur adipisicing elit?. </button>
-        
-                        </div>
-                        <span style="border: 2px solid var(--color-3);border-radius: 10px;"></span>
-                        <br>
-                        <div class="wa-card">
-                            <div class="wa-card-top">
-        
-                                <i class="fa-brands fa-whatsapp"></i>
-                                <h4 class="pointer">Horarios por WhatsApp</h4>
-        
-                            </div>
-        
-                            <p class="pointer">Recibí el horario del camión en tu celular, la noche anterior.</p>
-        
-                            <button class="wa-btn">
-        
-                                <i class="ti ti-brand-whatsapp"></i> Suscribirme
-                                
-                            </button>
-                        </div>
+                    <input type="email" placeholder="Email">
+                    <input type="password" placeholder="Password">
+                    <br>
+                    <button>Iniciar Sesion</button>
+                    <br>
+                    <a href="#" style="text-decoration: underline;">¿Olvidaste tu contraseña?</a>
+                </form>
+            </div>
+            <div class="toggle-container">
+                <div class="toggle">
+                    <div class="toggle-panel toggle-left">
+                        <h1>Crea tu Cuenta!</h1>
+                        <p>¿Ya eres usuario? Inicia sesion aqui</p>
+                        <button class="hidden" id="login">Iniciar Sesion</button>
                     </div>
-                    <section class="chatbot"> 
-                        <section class="Chatbot-profile">
-                            <div class="Chatbot-profile-picture">
-                                <i class="fa-solid fa-leaf"></i>
-                            </div>
-                            <div class="Chatbot-profile-name pointer">
-                                <strong>Ecobot</strong>
-                                <strong class="online-bot">
-                                    <p class="online-text">En linea</p>
-                                </strong>
-                            </div>
-                        </section>
-                        <span style="border: 1px solid grey; width: 90%; margin: 0 auto;"></span>
-                        <br>
-                        <section class="Chatbot-chat" id="Chatbot-chat">
-                        </section>
-                        <br><br>
-                        <section class="Chatbot-input">
-                            <form class="Chatbot-input-box">
-                                    <input type="text" placeholder="Escriba su consulta aqui" autocomplete="off" class="Chatbot-input-question" id="Chat-input">
-                                    <button type="button" class="Chatbot-input-btn" onclick="enviar()">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="15" fill="#eaf2e3" class="bi bi-send" viewBox="0 0 16 16">
-                                            <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
-                                        </svg>
-                                    </button>
-                                </form>
-                            </section>
-                    </section>
-                </section>
-        </aside>
-        
+                    <div class="toggle-panel toggle-right">
+                        <h1>Bienvenido de nuevo</h1>
+                        <p>¿No tienes cuenta? Crealea aqui</p>
+                        <button class="hidden" id="register">Crear Cuenta</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- CONTENIDO -->
+        <section class="inicio-content">
+            <div class="inicio-content-box">
+                <a href="#"><img class="content-img" src="IMG/ecobot-card.png" alt="EcoBot"></a>
+                <div class="content-text">
+                    <span class="underline"></span>
+                    <h2>EcoBot te notifica cuando pasa tu camión de basura</h2>
+                </div>
+            </div>
+            <div class="inicio-content-box">
+                <div class="content-text right">
+                    <span class="underline"></span>
+                    <h2>Indica a tu municipio la acumulación de basura según su nivel de gravedad</h2>
+                </div>
+                <a href="#"><img class="content-img" src="IMG/Mapa-card.png" alt="Mapa"></a>
+            </div>
+            <div class="inicio-content-box">
+                <a href="#"><img class="content-img" src="IMG/Team-card.png" alt="Equipo"></a>
+                <div class="content-text">
+                    <span class="underline"></span>
+                    <h2>Conocé más sobre el equipo detrás de EcoTuc<br>Tu opinión nos ayuda</h2>
+                </div>
+            </div>
         </section>
-    
-    </main>
-        <section class="more-box">
-            
-            <section class="more-cards">
-                <div class="more-card">
-                  <figure>
-                    <img src="IMG/Mapa-card.png" class="more-card-img">
-                  </figure>  
-                  <h3>Lorem ipsum dolor sit amet.</h3>
-                  <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h3>
-                </div>
-                <div class="more-card">
-                  <figure>
-                    <img src="IMG/Team-card.png"class="more-card-img">
-                  </figure>  
-                  <h3>Lorem ipsum dolor sit amet.</h3>
-                  <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h3>
-                </div>
-                <div class="more-card">
-                  <figure>
-                    <a href="#Inicio">
-                        <img src="IMG/ecobot-card.png" class="more-card-img">
-                    </a>
-                </figure>  
-                <div class="pointer">
-                    <h3>Lorem ipsum dolor sit amet.</h3>
-                    <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h3>
-                </div>
-                </div>
-            </section>
-        </section>
-    <footer>
-        
-    </footer>
+
+    </section>
+</section>
 </body>
 </html>
